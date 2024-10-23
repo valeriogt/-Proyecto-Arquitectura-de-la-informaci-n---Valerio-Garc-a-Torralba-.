@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web sobre la Liga de Fútbol Masculino">
+    <meta name="author" content="Tu Nombre">
+    <title>Liga Fútbol Masculino</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <!-- Encabezado con logotipo -->
+    <header>
+        <img src="https://alicanteplaza.es/public/Image/2023/6/fotonoticia_20230605133016_1920_NoticiaAmpliada.jpg" width="400" alt="Logotipo de la Liga de Fútbol Masculino">
+        <nav>
+            <ul>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#calendario">Calendario</a></li>
+                <li><a href="#clasificacion">Clasificación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Liga de Fútbol Masculino</h1>
+    <p>Bienvenidos a la página oficial de la Liga de Fútbol Masculino.</p>
+
+    <section id="equipos">
+        <h2>Equipos Participantes</h2>
+        <article>
+            <h3>FC Barcelona</h3>
+            <p>Equipo histórico de la liga.</p>
+        </article>
+        <article>
+            <h3>Real Madrid</h3>
+            <p>Equipo con más títulos internacionales.</p>
+        </article>
+    </section>
+
+    <section id="calendario">
+        <h2>Calendario de Partidos</h2>
+        <ul>
+            <li>Jornada 1: 15 de Octubre - FC Barcelona vs Real Madrid</li>
+            <li>Jornada 2: 22 de Octubre - Valencia vs Sevilla</li>
+        </ul>
+    </section>
+    <section id="clasificacion">
+        <h2>Clasificación Actual</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Equipo</th>
+                    <th>Puntos</th>
+                    <th>Partidos Jugados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>FC Barcelona</td>
+                    <td>25</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Real Madrid</td>
+                    <td>23</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Liga Fútbol Masculino. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.twitter.com/">Twitter</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+        <p><a href="prometeo:contacto@liga.com">Contacto</a></p>
+    </footer>
+
+</body>
+</html>
